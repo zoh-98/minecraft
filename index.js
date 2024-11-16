@@ -44,8 +44,8 @@ console.log("starting");
   
 }
 )
-
-}
-    console.log("mmmmmmmm");
+console.log("mmmmmmmm");
 await delay(1000);
+}
+    
 })();
