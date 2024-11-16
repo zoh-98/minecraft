@@ -2,6 +2,8 @@ function delay(milliseconds) {
     return new Promise(resolve => setTimeout(resolve, milliseconds));
 }
 
+console.log("starting");
+
 
 
 (async () => { 
@@ -36,7 +38,7 @@ function delay(milliseconds) {
   if (hi.success == "false") {
     
     await delay(1000 * 60 * 6);
-    
+    console.log("mmmmmmmm");
   }
   
   
@@ -44,5 +46,6 @@ function delay(milliseconds) {
 )
 
 }
+    console.log("mmmmmmmm");
 await delay(1000);
 })();
