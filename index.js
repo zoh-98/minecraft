@@ -33,12 +33,20 @@ function delay(milliseconds) {
   
   console.log(hi);
   
-  if (hi.success == false) {
+  if (hi.success == "false") {
     
     await delay(1000 * 60 * 6);
     
   }
-  
+
+}
+)
+
+}
+await delay(5000);
+
+
+while (true) {
   fetch("https://aternos.org/ajax/server/extend-end?SEC=mlbn862i2zl00000%3Abdfqz1qzvyu00000&TOKEN=jFnYanGamb6bdNTm0AeC&SERVER=voJqnB0jlDJf52Z9", {
     "headers": {
       "accept": "*/*",
@@ -56,13 +64,10 @@ function delay(milliseconds) {
     },
     "body": null,
     "method": "GET"
-  }).then(async res => {
-    console.log(await res.json())
+  }).then(async rol => {
+    console.log(await rol.json())
   })
   
+  await delay(900 *60);
 }
-)
-
-}
-await delay(1000);
 })();
