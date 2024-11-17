@@ -7,7 +7,7 @@ console.log("starting");
 
 
 (async () => { 
-  while (false) {
+  while (true) {
     
     
   fetch("https://aternos.org/ajax/server/start?access-credits=false&TOKEN=5bOQfNx5EC4Mf4qfWpFh&SEC=tl4gsou6zun00000%3Acfy5ek6xff800000&SERVER=voJqnB0jlDJf52Z9", {
