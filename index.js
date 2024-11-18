@@ -7,25 +7,26 @@ console.log("starting");
 (async () => { 
   while (true) {
     try {
-      const response = await fetch("https://aternos.org/ajax/server/extend-end?SEC=a4m3ja6v17o00000%3Ak9hpw5uhy3000000&TOKEN=1LkRNpzeYsoWi1B7xImZ&SERVER=voJqnB0jlDJf52Z9", {
-        headers: {
-          "accept": "*/*",
-          "accept-language": "en;q=0.7",
-          "priority": "u=1, i",
-          "sec-ch-ua": "\"Brave\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
-          "sec-ch-ua-mobile": "?0",
-          "sec-ch-ua-platform": "\"Windows\"",
-          "sec-fetch-dest": "empty",
-          "sec-fetch-mode": "cors",
-          "sec-fetch-site": "same-origin",
-          "sec-gpc": "1",
-          "x-requested-with": "XMLHttpRequest",
-          "cookie": "ATERNOS_SEC_a4m3ja6v17o00000=k9hpw5uhy3000000; ATERNOS_LANGUAGE=en; cf_clearance=OIBwA1f0OuAmdr3QCfdN40tnBRa4gv2YwljciOo7CtI-1731911048-1.2.1.1-sW2vgUg_HyQQBdwCBNklGaK8qHo2eS6WGVI8YgEk04EuoRCJ4bIPCZvvetiismFRwXtnn8O32xGIXSTgXGMHGUOlILrHiuI.LPQNi3xvjaRGl9wgtz_2tDGmgwMwQzLW17cjZefbKMgW2XlvzLh4YC2anY_39dDCKVRDHlBNShwI2dJt1PJopjTYuyOTj9ezXvuMYekvvw6n.0JWVSmwB4Q3IUrf2pjiSUhMUdasFkVky_PtwC7NT._RmbYZ3MDDFEdn4cYzQLNm0nNXoCsUkv0qfkQeUPHXw0NOVC7tqB5j49uSDWsUWNuP_uAOsvvEz9wMo9hhFpCkXflDwC4ytZyYszhWxRsiyl8tele.NbxTHdZXvzoiv7ZDFyrKjHDN; ATERNOS_SESSION=4pC6t7W6mRSPU6DhS6p6ygn9dpL6fcXh9Uj0it9FKuwT38l90u41r5z41UaUl84EFaESxT4LvcHrzano0YRRB0l2WUie9m9wT7qk; ATERNOS_SERVER=voJqnB0jlDJf52Z9",
-          "Referer": "https://aternos.org/server/",
-          "Referrer-Policy": "strict-origin-when-cross-origin"
-        },
-        method: "GET"
-      });
+      const response = await fetch("https://aternos.org/ajax/server/extend-end?SEC=ahy1l30wk4500000%3Auvw0cswfnw900000&TOKEN=HfrrOE56HxM7kMVWpHQw&SERVER=voJqnB0jlDJf52Z9", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en;q=0.7",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Brave\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "sec-gpc": "1",
+    "x-requested-with": "XMLHttpRequest",
+    "cookie": "ATERNOS_SEC_a4m3ja6v17o00000=k9hpw5uhy3000000; ATERNOS_SEC_57uqej9doba00000=j4d44i53zfj00000; ATERNOS_SEC_jvzi7q5pmhg00000=6klp2rxjshi00000; ATERNOS_SEC_2slhm4qymbi00000=y0g2125q4o000000; ATERNOS_SEC_ahy1l30wk4500000=uvw0cswfnw900000; ATERNOS_LANGUAGE=en; ATERNOS_SESSION=4pC6t7W6mRSPU6DhS6p6ygn9dpL6fcXh9Uj0it9FKuwT38l90u41r5z41UaUl84EFaESxT4LvcHrzano0YRRB0l2WUie9m9wT7qk; ATERNOS_STYLE=dark; ATERNOS_SERVER=voJqnB0jlDJf52Z9; cf_clearance=7R.4_U0yvgNtxcfwAhbo0SD.I_Yu01CPQU2kKMCeOYo-1731953630-1.2.1.1-Jxvmg1U7jwMn_qXYKF2eR24KQaCDwiBaNOpNYkj50XfCvhNy_fRXV1hSJ4jms94dOar18lQjW1vjg6HYAkRFjojMZr3f097kVVG7dRCGiwtqhLg.B3JybCM3e1eHBAo1hGVTqL.Hxr81XzyxV9.HXFd4lbBK6wfZ9fyTKlp1ndHf5i5RXIVWUaJE9mcxiTJ1jx3eDCNX_h9GAZiVvTr4fKc25vOrHq0m.K7.7tNHHklR6BdYoFekjVgq3.N.GbnqxBgvS7TgY.cQSXX6srbMIkICMahITkI1yF7DpJzrGw59T679nb.e7Sj_XF.0YJ.8NanNNnOgbaUttvqVcUzwZPNGySJJ6x8sXGS42wYC60F0XR03ceoAgyGxpTOiXVtH",
+    "Referer": "https://aternos.org/server/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+});
 
       if (!response.ok) {
         throw new Error(`Request failed with status: ${response.status}`);
