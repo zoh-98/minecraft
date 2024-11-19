@@ -7,37 +7,7 @@ console.log("starting");
 (async () => { 
   while (true) {
     try {
-      const response = await fetch("https://aternos.org/ajax/server/extend-end?SEC=ahy1l30wk4500000%3Auvw0cswfnw900000&TOKEN=HfrrOE56HxM7kMVWpHQw&SERVER=voJqnB0jlDJf52Z9", {
-  "headers": {
-    "accept": "*/*",
-    "accept-language": "en;q=0.7",
-    "priority": "u=1, i",
-    "sec-ch-ua": "\"Brave\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
-    "sec-ch-ua-mobile": "?0",
-    "sec-ch-ua-platform": "\"Windows\"",
-    "sec-fetch-dest": "empty",
-    "sec-fetch-mode": "cors",
-    "sec-fetch-site": "same-origin",
-    "sec-gpc": "1",
-    "x-requested-with": "XMLHttpRequest",
-    "cookie": "ATERNOS_SEC_a4m3ja6v17o00000=k9hpw5uhy3000000; ATERNOS_SEC_57uqej9doba00000=j4d44i53zfj00000; ATERNOS_SEC_jvzi7q5pmhg00000=6klp2rxjshi00000; ATERNOS_SEC_2slhm4qymbi00000=y0g2125q4o000000; ATERNOS_SEC_ahy1l30wk4500000=uvw0cswfnw900000; ATERNOS_LANGUAGE=en; ATERNOS_SESSION=4pC6t7W6mRSPU6DhS6p6ygn9dpL6fcXh9Uj0it9FKuwT38l90u41r5z41UaUl84EFaESxT4LvcHrzano0YRRB0l2WUie9m9wT7qk; ATERNOS_STYLE=dark; ATERNOS_SERVER=voJqnB0jlDJf52Z9; cf_clearance=7R.4_U0yvgNtxcfwAhbo0SD.I_Yu01CPQU2kKMCeOYo-1731953630-1.2.1.1-Jxvmg1U7jwMn_qXYKF2eR24KQaCDwiBaNOpNYkj50XfCvhNy_fRXV1hSJ4jms94dOar18lQjW1vjg6HYAkRFjojMZr3f097kVVG7dRCGiwtqhLg.B3JybCM3e1eHBAo1hGVTqL.Hxr81XzyxV9.HXFd4lbBK6wfZ9fyTKlp1ndHf5i5RXIVWUaJE9mcxiTJ1jx3eDCNX_h9GAZiVvTr4fKc25vOrHq0m.K7.7tNHHklR6BdYoFekjVgq3.N.GbnqxBgvS7TgY.cQSXX6srbMIkICMahITkI1yF7DpJzrGw59T679nb.e7Sj_XF.0YJ.8NanNNnOgbaUttvqVcUzwZPNGySJJ6x8sXGS42wYC60F0XR03ceoAgyGxpTOiXVtH",
-    "Referer": "https://aternos.org/server/",
-    "Referrer-Policy": "strict-origin-when-cross-origin"
-  },
-  "body": null,
-  "method": "GET"
-});
-
-      if (!response.ok) {
-        throw new Error(`Request failed with status: ${response.status}`);
-      }
-
-      const data = await response.json();
-      console.log(data);
-
-      if (data.error == "This is only possible when your server is online.") {
-
-        await fetch("https://aternos.org/ajax/server/start?access-credits=false&TOKEN=HfrrOE56HxM7kMVWpHQw&SEC=oc54isvbxs000000%3Aaslepbgpua700000&SERVER=voJqnB0jlDJf52Z9", {
+      const response = await fetch("https://aternos.org/ajax/server/extend-end?TOKEN=Gp55VBeWp2CMlz1yxxk1&SEC=zoz4fz88yaa00000%3Anh81jby9hd000000&SERVER=voJqnB0jlDJf52Z9", {
   "headers": {
     "accept": "*/*",
     "accept-language": "en-US,en;q=0.9",
@@ -47,14 +17,39 @@ console.log("starting");
     "sec-fetch-dest": "empty",
     "sec-fetch-mode": "cors",
     "sec-fetch-site": "same-origin",
-    "cookie": "ATERNOS_SEC_y44faioclan00000=x4gona9x5jo00000; ATERNOS_SEC_oc54isvbxs000000=aslepbgpua700000; _ga=GA1.1.2051570280.1731787629; ATERNOS_LANGUAGE=en; ATERNOS_SESSION=9nLmNyUmaUpR0EzysIMC0lcuCcRsOjJzIMfXrpn8SUwVnvKUtJLoGlviLeGhvsf8ssgiqFSc7lFTYrfKfCyhLbOCp1AxRyojgBUi; _sharedid=e7abf290-103b-4f09-9f28-66d4b774b77c; _sharedid_cst=zix7LPQsHA%3D%3D; _lr_env_src_ats=false; hb_insticator_uid=52a203a2-1e8c-40f8-b160-c97665ff34ed; _pubcid=3d39dd49-64fa-4e6b-9454-ffac2b224541; _au_1d=AU1D-0100-001731787735-Y24WG8DR-7MSD; _cc_id=a135444d890ce35be302fa7e848a76aa; panoramaId_expiry=1732393673893; panoramaId=bcfb8e689d4874775cc74d351218185ca02c42ec692f0a5f66811db0d434bd2a; panoramaIdType=panoDevice; usersync=eNqdzzsKgDAQBNC7bJ0iyaqruYqIiKYI-MMEUYJ310Kx1W2HeTATYbWLd9MIRgmY3WZ7D6aM4DowOkkE-H1sax-aJVwVQkUF5Tq983Ya5t4GC0Ye4kEZA6XyM1Iv4swjYqCc8Qkl_f-EqDkIf8yrjhO69JvT; ATERNOS_SERVER=voJqnB0jlDJf52Z9; _ga_FVWZ0RM4DH=GS1.1.1731835319.3.0.1731835319.60.0.0; _pubcid_cst=yyzLLLEsNg%3D%3D; _lr_retry_request=true; _ga_70M94GH0FD=GS1.1.1731950053.16.1.1731950062.0.0.0; cto_bundle=JLjzcl9ENXFFZ0FjUUp4aGpCRlZVRFpYUHFmN3NBc3R4MG8zOXIwZ1clMkJtY1pObnYySUYyTDRvc3RNVzZ0M0dpUjJtQlclMkJuRHA4WXh1NTg3blBaRSUyRlF1d1JyQnJSdHdrQiUyRko3NUFnYzJTSnhySDF6Wkk4UllDMzdwaWdyMnpJNFZPdUdtMmpYRGdJZ3IxODJ4SkNrOSUyRkUzQmR3JTNEJTNE; cto_bidid=LGeqDl92anlzRnlMNkJtSnVUMW9zNEtsYkZxSHVSVlY0bEdBMjMlMkZLUlFkUEtxTU03Q2xrcXo2TnJpVHZYJTJCJTJGTjBlNlZxa0pWazNqQ1piNGxGdiUyRkJXZSUyQnpFejdoM2ZncGdwRnJ3V0dOc1Q2TiUyRjRDZyUzRA; cf_clearance=JOSnXcGPslKXMP3e5nvhkHiBmuS0A2Tckhwp4Ho5gDc-1731950066-1.2.1.1-_XRsq4v2.Ryp1YdiS4cdUvCxlF95SLUlV_73xv8UMvsrXgySOlac6ukFeHD8L1BlPOoYMNrXHLTayCK3wRz99roCK_jAqSYx14FYC5NGAmXqAHEyDz5FA9c3EbftvRFl7qoXmIf5XQb1UAegcUqkFAa9Nf8lAdXBUMOQ7146AJra_Sg9VSYdA7zXDiAmpeBV0JQB3PPWKmHP1T229M6tlde_0y.kjl6GUpaxrQpFc6gwEUnr2RC.69jyWlIfGtt0faaUhV7it3UO1kzNL19r6rSvbNwoihLBF5cnJE3p.YWbzLvE5Qg8Sy_l00bDSd3NCGyLp9l4TUZAy_2zmU_ZtMYiO2S_cPV45DKu76RUMFqvrXwwvIOKKe4M6GF5Sflp; __gads=ID=fc6e996af735c061:T=1731787723:RT=1731950071:S=ALNI_MZaNEUAQ5eaGGRxZNtfdRC43NakAQ; __gpi=UID=00000f88479308b3:T=1731787723:RT=1731950071:S=ALNI_MY9N2WoTztD_sOPGndkbZ5QHv85HQ; __eoi=ID=844ee1bc4b78910e:T=1731787723:RT=1731950071:S=AA-AfjbKTIR-WEH7dYxamyebkaN6; FCNEC=%5B%5B%22AKsRol__ke3AKUG4GjWjL0vYwMUH2cg72POxUHqqcKswNEex_R0xldSKZ4asHS6Lt0miATEo7E5QQ-IvzxlwcPcyccUBO_CdAi7lZFAbcj-dkFiBio4g5R78ZluRGd4sIKos68XC3ldsKaLfe7uJE2lxJF3DR4lZEg%3D%3D%22%5D%5D",
+    "cookie": "ATERNOS_SEC_x0l8t83ogum00000=x8p2z42oav000000; ATERNOS_SEC_zoz4fz88yaa00000=nh81jby9hd000000; _ga=GA1.1.2051570280.1731787629; ATERNOS_LANGUAGE=en; ATERNOS_SESSION=9nLmNyUmaUpR0EzysIMC0lcuCcRsOjJzIMfXrpn8SUwVnvKUtJLoGlviLeGhvsf8ssgiqFSc7lFTYrfKfCyhLbOCp1AxRyojgBUi; _sharedid=e7abf290-103b-4f09-9f28-66d4b774b77c; _sharedid_cst=zix7LPQsHA%3D%3D; _lr_env_src_ats=false; hb_insticator_uid=52a203a2-1e8c-40f8-b160-c97665ff34ed; _pubcid=3d39dd49-64fa-4e6b-9454-ffac2b224541; _au_1d=AU1D-0100-001731787735-Y24WG8DR-7MSD; _cc_id=a135444d890ce35be302fa7e848a76aa; panoramaId_expiry=1732393673893; panoramaId=bcfb8e689d4874775cc74d351218185ca02c42ec692f0a5f66811db0d434bd2a; panoramaIdType=panoDevice; usersync=eNqdzzsKgDAQBNC7bJ0iyaqruYqIiKYI-MMEUYJ310Kx1W2HeTATYbWLd9MIRgmY3WZ7D6aM4DowOkkE-H1sax-aJVwVQkUF5Tq983Ya5t4GC0Ye4kEZA6XyM1Iv4swjYqCc8Qkl_f-EqDkIf8yrjhO69JvT; ATERNOS_SERVER=voJqnB0jlDJf52Z9; _ga_FVWZ0RM4DH=GS1.1.1731835319.3.0.1731835319.60.0.0; _pubcid_cst=yyzLLLEsNg%3D%3D; ATERNOS_STYLE=dark; _lr_retry_request=true; cf_clearance=rEEhmAsuAnYKJmEwqzDAV1A6AYWoMKuroRXDTkkB7XE-1732017164-1.2.1.1-GxS8IXG0Gd5cAAaL5ybdi6vl7LxT2pqv2u.jBgvFpW33aduLZnzeaPSKWoUH3QYdvZjf1pse0_NcD3_Yn491xmITn7lHmn_6F3F4WOUS0tlWrzyLjDsFL4BRqzQINfkmj.x4ayuO4zpGtiCLzhKDr4ZDSZ8JAjiHYEvzUZTXeq9yPkaF9U.zXTNX6m0qrHtEjreLgfWkhAFG5fC.tw2zSUceUaowFxFuqY4V2HlScljDRLdyGpljOKLLVvrqmNdcvic523kB8a3_wEBJNVj_wNoI9mMWMgyLCqnVDzTtXtIR2pP1s7Nb9LPBzWDFw1jovSpXvVM3G4HTFTQP5RkRM7aDUoVaX6jx2adXy0VHImIUGPnP8NZucjLPi.VDT2pl; _ga_70M94GH0FD=GS1.1.1732017137.21.1.1732017252.0.0.0; cto_bidid=SEQ2G192anlzRnlMNkJtSnVUMW9zNEtsYkZxSHVSVlY0bEdBMjMlMkZLUlFkUEtxTU03Q2xrcXo2TnJpVHZYJTJCJTJGTjBlNlZxa0pWazNqQ1piNGxGdiUyRkJXZSUyQnpFejM2bmt4UmFZdiUyRkclMkZ0ZXRreWVFUlpZJTNE; cto_bundle=kLbDOl9ENXFFZ0FjUUp4aGpCRlZVRFpYUHFYY2ZSUWVWbTNzRkd4YWNNQnE1dmhSbzJScHhid2t4emtENUMxREJWamwyUnpqNFdCOFN0M211UjNvdlBoOElqaVlPeU5KRTdtRkRmZURhVVZYZiUyQjF2dHd6cktxQSUyQlpVQ1o0RmU3YmxlaFF3UnpvQ2xRTlpibzNyWWZ0cEdwbEZ3JTNEJTNE; FCNEC=%5B%5B%22AKsRol-kUZf6V3EBrhXCkPWIA9YDmd1L0LZ42B6tFoPLJPwwWyNuaCHisZo6mIcnPDPIeNKc6Qnd-oqbCh5YLc0ObQFH9tlwPgygpzMvjDaDxDATdLwegeqkdE3nDJfxsJGQ2-ZwBYoXCWCCqyvqR20tj92awS7UQg%3D%3D%22%5D%5D; __gads=ID=fc6e996af735c061:T=1731787723:RT=1732017789:S=ALNI_MZaNEUAQ5eaGGRxZNtfdRC43NakAQ; __gpi=UID=00000f88479308b3:T=1731787723:RT=1732017789:S=ALNI_MY9N2WoTztD_sOPGndkbZ5QHv85HQ; __eoi=ID=844ee1bc4b78910e:T=1731787723:RT=1732017789:S=AA-AfjbKTIR-WEH7dYxamyebkaN6",
     "Referer": "https://aternos.org/server/",
     "Referrer-Policy": "strict-origin-when-cross-origin"
   },
   "body": null,
   "method": "GET"
 });
+      if (!response.ok) {
+        throw new Error(`Request failed with status: ${response.status}`);
+      }
 
+      const data = await response.json();
+      console.log(data);
+
+      if (data.error == "This is only possible when your server is online.") {
+
+        await fetch("https://aternos.org/ajax/server/start?access-credits=false&TOKEN=Gp55VBeWp2CMlz1yxxk1&SEC=zoz4fz88yaa00000%3Anh81jby9hd000000&SERVER=voJqnB0jlDJf52Z9", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9",
+    "sec-ch-ua": "\"Not-A.Brand\";v=\"99\", \"Chromium\";v=\"124\"",
+    "sec-ch-ua-mobile": "?1",
+    "sec-ch-ua-platform": "\"Android\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "ATERNOS_SEC_x0l8t83ogum00000=x8p2z42oav000000; ATERNOS_SEC_zoz4fz88yaa00000=nh81jby9hd000000; _ga=GA1.1.2051570280.1731787629; ATERNOS_LANGUAGE=en; ATERNOS_SESSION=9nLmNyUmaUpR0EzysIMC0lcuCcRsOjJzIMfXrpn8SUwVnvKUtJLoGlviLeGhvsf8ssgiqFSc7lFTYrfKfCyhLbOCp1AxRyojgBUi; _sharedid=e7abf290-103b-4f09-9f28-66d4b774b77c; _sharedid_cst=zix7LPQsHA%3D%3D; _lr_env_src_ats=false; hb_insticator_uid=52a203a2-1e8c-40f8-b160-c97665ff34ed; _pubcid=3d39dd49-64fa-4e6b-9454-ffac2b224541; _au_1d=AU1D-0100-001731787735-Y24WG8DR-7MSD; _cc_id=a135444d890ce35be302fa7e848a76aa; panoramaId_expiry=1732393673893; panoramaId=bcfb8e689d4874775cc74d351218185ca02c42ec692f0a5f66811db0d434bd2a; panoramaIdType=panoDevice; usersync=eNqdzzsKgDAQBNC7bJ0iyaqruYqIiKYI-MMEUYJ310Kx1W2HeTATYbWLd9MIRgmY3WZ7D6aM4DowOkkE-H1sax-aJVwVQkUF5Tq983Ya5t4GC0Ye4kEZA6XyM1Iv4swjYqCc8Qkl_f-EqDkIf8yrjhO69JvT; ATERNOS_SERVER=voJqnB0jlDJf52Z9; _ga_FVWZ0RM4DH=GS1.1.1731835319.3.0.1731835319.60.0.0; _pubcid_cst=yyzLLLEsNg%3D%3D; ATERNOS_STYLE=dark; _lr_retry_request=true; cf_clearance=rEEhmAsuAnYKJmEwqzDAV1A6AYWoMKuroRXDTkkB7XE-1732017164-1.2.1.1-GxS8IXG0Gd5cAAaL5ybdi6vl7LxT2pqv2u.jBgvFpW33aduLZnzeaPSKWoUH3QYdvZjf1pse0_NcD3_Yn491xmITn7lHmn_6F3F4WOUS0tlWrzyLjDsFL4BRqzQINfkmj.x4ayuO4zpGtiCLzhKDr4ZDSZ8JAjiHYEvzUZTXeq9yPkaF9U.zXTNX6m0qrHtEjreLgfWkhAFG5fC.tw2zSUceUaowFxFuqY4V2HlScljDRLdyGpljOKLLVvrqmNdcvic523kB8a3_wEBJNVj_wNoI9mMWMgyLCqnVDzTtXtIR2pP1s7Nb9LPBzWDFw1jovSpXvVM3G4HTFTQP5RkRM7aDUoVaX6jx2adXy0VHImIUGPnP8NZucjLPi.VDT2pl; _ga_70M94GH0FD=GS1.1.1732017137.21.1.1732017252.0.0.0; cto_bidid=SEQ2G192anlzRnlMNkJtSnVUMW9zNEtsYkZxSHVSVlY0bEdBMjMlMkZLUlFkUEtxTU03Q2xrcXo2TnJpVHZYJTJCJTJGTjBlNlZxa0pWazNqQ1piNGxGdiUyRkJXZSUyQnpFejM2bmt4UmFZdiUyRkclMkZ0ZXRreWVFUlpZJTNE; cto_bundle=kLbDOl9ENXFFZ0FjUUp4aGpCRlZVRFpYUHFYY2ZSUWVWbTNzRkd4YWNNQnE1dmhSbzJScHhid2t4emtENUMxREJWamwyUnpqNFdCOFN0M211UjNvdlBoOElqaVlPeU5KRTdtRkRmZURhVVZYZiUyQjF2dHd6cktxQSUyQlpVQ1o0RmU3YmxlaFF3UnpvQ2xRTlpibzNyWWZ0cEdwbEZ3JTNEJTNE; FCNEC=%5B%5B%22AKsRol-kUZf6V3EBrhXCkPWIA9YDmd1L0LZ42B6tFoPLJPwwWyNuaCHisZo6mIcnPDPIeNKc6Qnd-oqbCh5YLc0ObQFH9tlwPgygpzMvjDaDxDATdLwegeqkdE3nDJfxsJGQ2-ZwBYoXCWCCqyvqR20tj92awS7UQg%3D%3D%22%5D%5D; __gads=ID=fc6e996af735c061:T=1731787723:RT=1732017789:S=ALNI_MZaNEUAQ5eaGGRxZNtfdRC43NakAQ; __gpi=UID=00000f88479308b3:T=1731787723:RT=1732017789:S=ALNI_MY9N2WoTztD_sOPGndkbZ5QHv85HQ; __eoi=ID=844ee1bc4b78910e:T=1731787723:RT=1732017789:S=AA-AfjbKTIR-WEH7dYxamyebkaN6",
+    "Referer": "https://aternos.org/server/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+});
       }
 
       await delay(1000 * 60); // Wait for 1 minute
